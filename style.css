@@ -1,0 +1,48 @@
+form {
+  width: 50vw;
+  margin: auto;
+  display: block;
+  border-bottom: 4px solid black;
+  text-align: center;
+  padding: 10px;
+  font-family: "helvetica";
+}
+
+#itemInput {
+  border: 4px solid black;
+  width: 25%;
+  font-size: larger;
+  padding: 5px;
+}
+
+#itemInput:focus {
+  border: 4px solid purple;
+}
+
+#submitBtn {
+  font-size: larger;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bolder;
+  background-color: purple;
+  color: white;
+}
+
+#itemsContainer {
+  margin: 10px auto;
+  width: 50vw;
+  padding: 30px;
+}
+#itemsContainer h1 {
+  text-align: center;
+}
+
+#itemsContainer li {
+  font-size: large;
+  list-style: square inside;
+}
+
+h1 {
+  text-align: center;
+}
